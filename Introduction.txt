@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <!-- Son caracteristicas para mejorar el posicionamiento de la pagina 
+    1- Mostrar diferentes caracteres (ñ,ò, etc)
+    2- Muestra una descripcion (Es lo que esta en gris en los diferentes navegadores luego del titulo)
+    3- Permite que los robots de google busquen informacion para un mejor posicionamiento
+    4- es para que la letra se adecue mejor a los celulares (Sistema responsive)
+-->
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Hola esta es una pagina de prueba"/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="index.css">
+    <title>Media Player</title>
+</head>
+<body id="body" class="body">
+<!--Estructura de una pagina para tener un mejor posicionamiento
+<header>
+    <nav> </nav>
+</header>
+
+<main>
+    <section>
+<main>
+    
+<footer>    
+</footer>
+
+
+Link para saber el peso de las imagenes: https://static.platzi.com/media/user_upload/table%20for%20diferent%20images-42fdf349-a492-4ff5-afbd-1f437c804e4a.jpg
+debe pesar alrededor de 70KB -> Tiny y Verexif para optimizar las imagenes
+
+Para un correcto formulario se prefiere tener
+<form>
+    <label for="IDdelinput">
+        <span>Cual es tu nombre</span>
+        <input type="text" id="fordellabel">
+    </label>
+</form>
+
+Se puede utilizar la propiedad "autocomplete="name" " por si el usuario ya a rellenado informacion similar en otras paginas
+y require, es para que el usuario si o si lo deba complementar
+
+Para un select es mejor:
+<input list= "cursos"/>
+<datalist id="cursos">
+    <option value="JavaScript"></option>
+    <option value="HTML5"></option>
+    <option value="CSS3"></option>
+</datalist>
+
+
+Enciclopedia de css:
+https://i.emezeta.com/weblog/css3-cheatsheet/css3-cheatsheet-2017-emezeta.pdf
+
+
+Algo muy util para el css
+flex
+https://miro.medium.com/max/2562/1*6NUIFlnX9SAanhWeOwt3Bg.gif
+
+
+-->
+
+
+
+
+    
+
+    <header class="header">
+<h1 >Video</h1>
+<canvas ></canvas>
+</header>
+
+
+<video class="videos"><source src="./Sources/Seguro te pierdo - Serge ft KID FLEX letra.mp4"></video>
+    <div class="dbut"> 
+<button id="button1">Play :) /Pause</button>
+<button id="button2">Mute /Unmute</button>
+<input id="vol" type="range">
+</div>
+<div id="gg"></div>
+<script type="module" src="./Js/index.js"> </script>
+
+
+</body>
+</html>
